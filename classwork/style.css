@@ -4,9 +4,7 @@
   }
   #chapter1 { text-align: center }
   .redText { color: purple }
-  h1 { 
-    color: orange ;
-}
+  h3 { color: purple } 
 .pseudoClass {
     margin-top: 15px;
     width: 200px;
