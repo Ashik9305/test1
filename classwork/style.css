@@ -1,1 +1,21 @@
 /* Your external CSS styles go here */
+* {
+    font-size: 18px;
+  }
+  #chapter1 { text-align: center }
+  .redText { color: purple }
+  h1 { 
+    color: orange ;
+}
+.pseudoClass {
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
+    padding: 200px ;
+    background-color: yellow;
+  }
+  
+  .pseudoClass:hover {
+    background-color: red;
+    color: white;
+  }
