@@ -4,7 +4,11 @@
   }
   #chapter1 { text-align: center }
   .redText { color: purple }
-  h3 { font-size: 16px } 
+
+  h3{ font-size: 16px ;
+      background-color: red;
+    } 
+
   p.main {
     color: purple;
   }
