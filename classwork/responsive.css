@@ -16,14 +16,14 @@
   .facebook {
     background-color: red;
   }
-  @media (max-width:500px) {
+  @media (max-width:490px) {
     .Ashik, .facebook {
       width: 90%;
       font-size: 32px;
       background-color: black;
     }
   }
-  @media (min-width:1000px) {
+  @media (min-width:1001px) {
     .Ashik, .facebook {
       width: 60%;
       font-size: 32px;
