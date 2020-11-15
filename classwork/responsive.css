@@ -1,1 +1,46 @@
-/* Your responsive CSS styles go here */
+.Ashik, .facebook {
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    line-height: 200px;
+    display: inline-block;
+    width: 45%;
+  }
+  
+  .Ashik {
+    background-color: yellow;
+  }
+  
+  .facebook {
+    background-color: red;
+  }
+  @media (max-width:500px) {
+    .Ashik, .facebook {
+      width: 90%;
+      font-size: 32px;
+      background-color: black;
+    }
+  }
+  @media (min-width:1000px) {
+    .Ashik, .facebook {
+      width: 60%;
+      font-size: 32px;
+      background-color: orange;
+    }
+  }
+  
+  @media (max-width:900px) and (min-width:600px) {
+    .Ashik {
+      width: 30%;
+      font-size: 24px;
+      background-color: black;
+    }
+    .facebook {
+      width: 55%;
+      background-color: green;
+    }
+  }
+  
+  
